@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D21DE002032C10600219547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D21DDFF2032C10600219547 /* AppDelegate.swift */; };
+		6D21DE022032C10600219547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D21DE012032C10600219547 /* ViewController.swift */; };
+		6D21DE052032C10600219547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D21DE032032C10600219547 /* Main.storyboard */; };
+		6D21DE072032C10600219547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D21DE062032C10600219547 /* Assets.xcassets */; };
+		6D21DE0A2032C10600219547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D21DE082032C10600219547 /* LaunchScreen.storyboard */; };
+		6D21DE152032C10600219547 /* DatpotAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D21DE142032C10600219547 /* DatpotAppTests.swift */; };
+		6D21DE202032C10600219547 /* DatpotAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D21DE1F2032C10600219547 /* DatpotAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D21DE112032C10600219547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D21DDF42032C10600219547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D21DDFB2032C10600219547;
+			remoteInfo = DatpotApp;
+		};
+		6D21DE1C2032C10600219547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D21DDF42032C10600219547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D21DDFB2032C10600219547;
+			remoteInfo = DatpotApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D21DDFC2032C10600219547 /* DatpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D21DDFF2032C10600219547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D21DE012032C10600219547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D21DE042032C10600219547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D21DE062032C10600219547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D21DE092032C10600219547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D21DE0B2032C10600219547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D21DE102032C10600219547 /* DatpotAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatpotAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D21DE142032C10600219547 /* DatpotAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatpotAppTests.swift; sourceTree = "<group>"; };
+		6D21DE162032C10600219547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D21DE1B2032C10600219547 /* DatpotAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatpotAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D21DE1F2032C10600219547 /* DatpotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatpotAppUITests.swift; sourceTree = "<group>"; };
+		6D21DE212032C10600219547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D21DDF92032C10600219547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE0D2032C10600219547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE182032C10600219547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D21DDF32032C10600219547 = {
+			isa = PBXGroup;
+			children = (
+				6D21DDFE2032C10600219547 /* DatpotApp */,
+				6D21DE132032C10600219547 /* DatpotAppTests */,
+				6D21DE1E2032C10600219547 /* DatpotAppUITests */,
+				6D21DDFD2032C10600219547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D21DDFD2032C10600219547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D21DDFC2032C10600219547 /* DatpotApp.app */,
+				6D21DE102032C10600219547 /* DatpotAppTests.xctest */,
+				6D21DE1B2032C10600219547 /* DatpotAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D21DDFE2032C10600219547 /* DatpotApp */ = {
+			isa = PBXGroup;
+			children = (
+				6D21DDFF2032C10600219547 /* AppDelegate.swift */,
+				6D21DE012032C10600219547 /* ViewController.swift */,
+				6D21DE032032C10600219547 /* Main.storyboard */,
+				6D21DE062032C10600219547 /* Assets.xcassets */,
+				6D21DE082032C10600219547 /* LaunchScreen.storyboard */,
+				6D21DE0B2032C10600219547 /* Info.plist */,
+			);
+			path = DatpotApp;
+			sourceTree = "<group>";
+		};
+		6D21DE132032C10600219547 /* DatpotAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D21DE142032C10600219547 /* DatpotAppTests.swift */,
+				6D21DE162032C10600219547 /* Info.plist */,
+			);
+			path = DatpotAppTests;
+			sourceTree = "<group>";
+		};
+		6D21DE1E2032C10600219547 /* DatpotAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D21DE1F2032C10600219547 /* DatpotAppUITests.swift */,
+				6D21DE212032C10600219547 /* Info.plist */,
+			);
+			path = DatpotAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D21DDFB2032C10600219547 /* DatpotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D21DE242032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotApp" */;
+			buildPhases = (
+				6D21DDF82032C10600219547 /* Sources */,
+				6D21DDF92032C10600219547 /* Frameworks */,
+				6D21DDFA2032C10600219547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatpotApp;
+			productName = DatpotApp;
+			productReference = 6D21DDFC2032C10600219547 /* DatpotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D21DE0F2032C10600219547 /* DatpotAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D21DE272032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotAppTests" */;
+			buildPhases = (
+				6D21DE0C2032C10600219547 /* Sources */,
+				6D21DE0D2032C10600219547 /* Frameworks */,
+				6D21DE0E2032C10600219547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D21DE122032C10600219547 /* PBXTargetDependency */,
+			);
+			name = DatpotAppTests;
+			productName = DatpotAppTests;
+			productReference = 6D21DE102032C10600219547 /* DatpotAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D21DE1A2032C10600219547 /* DatpotAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D21DE2A2032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotAppUITests" */;
+			buildPhases = (
+				6D21DE172032C10600219547 /* Sources */,
+				6D21DE182032C10600219547 /* Frameworks */,
+				6D21DE192032C10600219547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D21DE1D2032C10600219547 /* PBXTargetDependency */,
+			);
+			name = DatpotAppUITests;
+			productName = DatpotAppUITests;
+			productReference = 6D21DE1B2032C10600219547 /* DatpotAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D21DDF42032C10600219547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Datspot;
+				TargetAttributes = {
+					6D21DDFB2032C10600219547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6D21DE0F2032C10600219547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D21DDFB2032C10600219547;
+					};
+					6D21DE1A2032C10600219547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D21DDFB2032C10600219547;
+					};
+				};
+			};
+			buildConfigurationList = 6D21DDF72032C10600219547 /* Build configuration list for PBXProject "DatpotApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D21DDF32032C10600219547;
+			productRefGroup = 6D21DDFD2032C10600219547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D21DDFB2032C10600219547 /* DatpotApp */,
+				6D21DE0F2032C10600219547 /* DatpotAppTests */,
+				6D21DE1A2032C10600219547 /* DatpotAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D21DDFA2032C10600219547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D21DE0A2032C10600219547 /* LaunchScreen.storyboard in Resources */,
+				6D21DE072032C10600219547 /* Assets.xcassets in Resources */,
+				6D21DE052032C10600219547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE0E2032C10600219547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE192032C10600219547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D21DDF82032C10600219547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D21DE022032C10600219547 /* ViewController.swift in Sources */,
+				6D21DE002032C10600219547 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE0C2032C10600219547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D21DE152032C10600219547 /* DatpotAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D21DE172032C10600219547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D21DE202032C10600219547 /* DatpotAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D21DE122032C10600219547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D21DDFB2032C10600219547 /* DatpotApp */;
+			targetProxy = 6D21DE112032C10600219547 /* PBXContainerItemProxy */;
+		};
+		6D21DE1D2032C10600219547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D21DDFB2032C10600219547 /* DatpotApp */;
+			targetProxy = 6D21DE1C2032C10600219547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D21DE032032C10600219547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D21DE042032C10600219547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D21DE082032C10600219547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D21DE092032C10600219547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D21DE222032C10600219547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D21DE232032C10600219547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D21DE252032C10600219547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D21DE262032C10600219547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D21DE282032C10600219547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatpotApp.app/DatpotApp";
+			};
+			name = Debug;
+		};
+		6D21DE292032C10600219547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatpotApp.app/DatpotApp";
+			};
+			name = Release;
+		};
+		6D21DE2B2032C10600219547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatpotApp;
+			};
+			name = Debug;
+		};
+		6D21DE2C2032C10600219547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatpotAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Datspot.DatpotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatpotApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D21DDF72032C10600219547 /* Build configuration list for PBXProject "DatpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D21DE222032C10600219547 /* Debug */,
+				6D21DE232032C10600219547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D21DE242032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D21DE252032C10600219547 /* Debug */,
+				6D21DE262032C10600219547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D21DE272032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D21DE282032C10600219547 /* Debug */,
+				6D21DE292032C10600219547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D21DE2A2032C10600219547 /* Build configuration list for PBXNativeTarget "DatpotAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D21DE2B2032C10600219547 /* Debug */,
+				6D21DE2C2032C10600219547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D21DDF42032C10600219547 /* Project object */;
+}
