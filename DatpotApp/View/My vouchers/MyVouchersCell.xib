@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRounded-Book.otf">
+            <string>GothamRounded-Book</string>
+        </array>
+        <array key="GothamRounded-Light.otf">
+            <string>GothamRounded-Light</string>
+        </array>
+        <array key="GothamRoundedMedium_21022.ttf">
+            <string>GothamRounded-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="MyVouchersCell" customModule="DatpotApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" text="The Great Australian Brunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caH-Qg-hQC">
+                        <rect key="frame" x="16" y="11" width="341" height="17"/>
+                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.90588568651036261" green="0.90588568651036261" blue="0.90588568651036261" alpha="0.71099251760000004" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3Min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SJ-fU-nu6">
+                        <rect key="frame" x="365" y="11" width="51" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="zmW-VT-m4T"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.64003805049999996" green="0.64003805049999996" blue="0.64003805049999996" alpha="0.71099251760000004" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="751" text="20% OFF on Saturday Night" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyj-tW-2Zg">
+                        <rect key="frame" x="16" y="43" width="240" height="17"/>
+                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgp-cP-ptK">
+                        <rect key="frame" x="16" y="67" width="379" height="115"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="115" id="YdE-je-aeQ"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.64003805049999996" green="0.64003805049999996" blue="0.64003805049999996" alpha="0.71099251760000004" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRW-X0-aQw">
+                        <rect key="frame" x="155" y="182" width="252" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="vWp-pN-dI8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="19"/>
+                        <state key="normal" title="Apply Coupon" backgroundImage="Button"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" text="QR Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C04-tA-MH2">
+                        <rect key="frame" x="20" y="188" width="93" height="17"/>
+                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.64003805049999996" green="0.64003805049999996" blue="0.64003805049999996" alpha="0.71099251760000004" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" text="XB1102938" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKk-63-f2N">
+                        <rect key="frame" x="20" y="213" width="93" height="17"/>
+                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="4SJ-fU-nu6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="1Ti-B4-4W9"/>
+                    <constraint firstItem="EKk-63-f2N" firstAttribute="trailing" secondItem="C04-tA-MH2" secondAttribute="trailing" id="1y8-LA-QLe"/>
+                    <constraint firstItem="4SJ-fU-nu6" firstAttribute="leading" secondItem="caH-Qg-hQC" secondAttribute="trailing" constant="8" symbolic="YES" id="2K9-W5-Q50"/>
+                    <constraint firstItem="wgp-cP-ptK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="8Na-hm-9lg"/>
+                    <constraint firstItem="eRW-X0-aQw" firstAttribute="leading" secondItem="C04-tA-MH2" secondAttribute="trailing" constant="42" id="8bO-oG-DUK"/>
+                    <constraint firstItem="4SJ-fU-nu6" firstAttribute="baseline" secondItem="caH-Qg-hQC" secondAttribute="baseline" id="9w5-bR-voC"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eRW-X0-aQw" secondAttribute="bottom" constant="2" id="AyS-qT-BlX"/>
+                    <constraint firstAttribute="bottom" secondItem="eRW-X0-aQw" secondAttribute="bottom" constant="12.5" id="Dxo-nH-XjG"/>
+                    <constraint firstAttribute="trailing" secondItem="4SJ-fU-nu6" secondAttribute="trailing" constant="5" id="M2R-7A-Aue"/>
+                    <constraint firstItem="C04-tA-MH2" firstAttribute="top" secondItem="wgp-cP-ptK" secondAttribute="bottom" constant="6" id="gAu-M2-WRq"/>
+                    <constraint firstItem="wgp-cP-ptK" firstAttribute="top" secondItem="gyj-tW-2Zg" secondAttribute="bottom" constant="7" id="iYg-wN-4tS"/>
+                    <constraint firstItem="eRW-X0-aQw" firstAttribute="top" secondItem="wgp-cP-ptK" secondAttribute="bottom" id="ivt-5K-u4F"/>
+                    <constraint firstItem="wgp-cP-ptK" firstAttribute="leading" secondItem="caH-Qg-hQC" secondAttribute="leading" id="m6v-A4-y64"/>
+                    <constraint firstAttribute="bottom" secondItem="EKk-63-f2N" secondAttribute="bottom" constant="19.5" id="n14-Yb-uG1"/>
+                    <constraint firstAttribute="trailing" secondItem="eRW-X0-aQw" secondAttribute="trailing" constant="14" id="qEi-cr-svm"/>
+                    <constraint firstItem="wgp-cP-ptK" firstAttribute="leading" secondItem="gyj-tW-2Zg" secondAttribute="leading" id="sD3-4t-gXV"/>
+                    <constraint firstItem="EKk-63-f2N" firstAttribute="top" secondItem="C04-tA-MH2" secondAttribute="bottom" constant="8" id="uCE-xJ-ZDp"/>
+                    <constraint firstAttribute="trailing" secondItem="wgp-cP-ptK" secondAttribute="trailing" constant="26" id="uma-Nf-bhl"/>
+                    <constraint firstItem="EKk-63-f2N" firstAttribute="leading" secondItem="C04-tA-MH2" secondAttribute="leading" id="uzM-EA-aDQ"/>
+                    <constraint firstItem="C04-tA-MH2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="w6U-WZ-w5q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="84.5" y="157"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Button" width="420" height="74"/>
+    </resources>
+</document>

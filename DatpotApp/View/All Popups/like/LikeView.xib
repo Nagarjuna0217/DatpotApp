@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+        </array>
+        <array key="GothamMedium Regular.otf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LikeView" customModule="DatpotApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Lys-UL-LKX">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="282"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0R-hN-gbE">
+                    <rect key="frame" x="112.5" y="16" width="85" height="66"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="85" id="lH1-CN-13o"/>
+                        <constraint firstAttribute="height" constant="66" id="mXA-WC-4Ym"/>
+                    </constraints>
+                    <state key="normal" image="loveborder"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You just liked the post" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUV-XO-Mk4">
+                    <rect key="frame" x="5" y="83" width="300" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ijF-m4-CYH"/>
+                        <constraint firstAttribute="width" constant="300" id="sqo-TV-5cB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GothamMedium" family="GothamMedium" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you wish to follow the activities for th post?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-N4-gjb">
+                    <rect key="frame" x="12" y="129" width="286" height="62"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="7de-BC-ASc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvT-im-rKt">
+                    <rect key="frame" x="12" y="222" width="136" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="136" id="cTd-Ck-NVa"/>
+                        <constraint firstAttribute="height" constant="40" id="mGe-gb-ATW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="Follow" backgroundImage="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rme-Va-B2s">
+                    <rect key="frame" x="162" y="222" width="136" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="136" id="RMi-6p-hab"/>
+                        <constraint firstAttribute="height" constant="40" id="uRj-Aq-JoG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="Skip" backgroundImage="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pvT-im-rKt" firstAttribute="top" secondItem="SYb-N4-gjb" secondAttribute="bottom" constant="31" id="Bvr-x3-8YR"/>
+                <constraint firstItem="SYb-N4-gjb" firstAttribute="leading" secondItem="eIw-cR-jjP" secondAttribute="leading" constant="12" id="CYg-5X-USv"/>
+                <constraint firstItem="pvT-im-rKt" firstAttribute="leading" secondItem="eIw-cR-jjP" secondAttribute="leading" constant="12" id="Ewt-CZ-zXX"/>
+                <constraint firstItem="eIw-cR-jjP" firstAttribute="trailing" secondItem="SYb-N4-gjb" secondAttribute="trailing" constant="12" id="F5a-sU-CTC"/>
+                <constraint firstItem="O0R-hN-gbE" firstAttribute="centerX" secondItem="Lys-UL-LKX" secondAttribute="centerX" id="GdA-7o-01k"/>
+                <constraint firstItem="SYb-N4-gjb" firstAttribute="top" secondItem="yUV-XO-Mk4" secondAttribute="bottom" constant="11" id="LJb-qg-pNw"/>
+                <constraint firstItem="rme-Va-B2s" firstAttribute="top" secondItem="SYb-N4-gjb" secondAttribute="bottom" constant="31" id="QxJ-dL-CjB"/>
+                <constraint firstItem="eIw-cR-jjP" firstAttribute="trailing" secondItem="rme-Va-B2s" secondAttribute="trailing" constant="12" id="Weh-VI-9pI"/>
+                <constraint firstItem="yUV-XO-Mk4" firstAttribute="centerX" secondItem="Lys-UL-LKX" secondAttribute="centerX" id="XDo-Cd-Tx3"/>
+                <constraint firstItem="yUV-XO-Mk4" firstAttribute="top" secondItem="O0R-hN-gbE" secondAttribute="bottom" constant="1" id="ZoR-S6-2y6"/>
+                <constraint firstItem="O0R-hN-gbE" firstAttribute="top" secondItem="eIw-cR-jjP" secondAttribute="top" constant="16" id="cza-23-OTD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="eIw-cR-jjP"/>
+            <point key="canvasLocation" x="-14" y="501"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Button" width="420" height="74"/>
+        <image name="loveborder" width="44" height="39"/>
+    </resources>
+</document>

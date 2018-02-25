@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+        </array>
+        <array key="GothamMedium Regular.otf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RequestView" customModule="DatpotApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="280"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request send successfully" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxj-VO-UBW">
+                    <rect key="frame" x="18" y="105" width="275" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="275" id="ZNr-Ro-wzq"/>
+                        <constraint firstAttribute="height" constant="53" id="iWb-gZ-cca"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GothamMedium" family="GothamMedium" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SX-rd-SBz">
+                    <rect key="frame" x="96" y="193" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="P5W-tu-Rht"/>
+                        <constraint firstAttribute="height" constant="40" id="pgT-w7-7ry"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="Done" backgroundImage="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v46-Xu-9KN">
+                    <rect key="frame" x="137" y="32" width="37" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="pEB-E8-YhG"/>
+                        <constraint firstAttribute="width" constant="37" id="ybO-V2-QYH"/>
+                    </constraints>
+                    <state key="normal" image="request"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4SX-rd-SBz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="1" id="Bt1-69-Jda"/>
+                <constraint firstItem="hxj-VO-UBW" firstAttribute="top" secondItem="v46-Xu-9KN" secondAttribute="bottom" constant="32" id="EGq-bI-ih2"/>
+                <constraint firstItem="hxj-VO-UBW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KYH-Ub-alG"/>
+                <constraint firstItem="v46-Xu-9KN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="dPd-P5-qrg"/>
+                <constraint firstItem="4SX-rd-SBz" firstAttribute="top" secondItem="hxj-VO-UBW" secondAttribute="bottom" constant="35" id="mHf-bw-wSe"/>
+                <constraint firstItem="v46-Xu-9KN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pNZ-RM-Erj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="24.5" y="247"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Button" width="420" height="74"/>
+        <image name="request" width="37" height="41"/>
+    </resources>
+</document>

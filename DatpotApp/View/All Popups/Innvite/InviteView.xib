@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </array>
+        <array key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+        </array>
+        <array key="GothamMedium Regular.otf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InviteView" customModule="DatpotApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="315"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="em1-0g-F4I">
+                    <rect key="frame" x="135" y="21" width="40" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="HsS-hw-c6A"/>
+                        <constraint firstAttribute="height" constant="34" id="cAb-G0-oNy"/>
+                    </constraints>
+                    <state key="normal" image="invite"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invitation Sent Successfully" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CQ-PG-uUs">
+                    <rect key="frame" x="0.0" y="63" width="310" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="F0n-wW-bFk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GothamMedium" family="GothamMedium" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak3-2Q-VIR">
+                    <rect key="frame" x="19" y="101" width="272" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="DGt-IB-CNi"/>
+                    </constraints>
+                    <string key="text">Do you want to let them know thereason for invitation</string>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gV7-yT-qKC">
+                    <rect key="frame" x="95" y="255" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DMo-vy-zQF"/>
+                        <constraint firstAttribute="width" constant="120" id="rhr-01-Fis"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="Done" backgroundImage="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Rr-F0-pf8">
+                    <rect key="frame" x="60" y="162" width="76" height="73"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="76" id="09e-gp-kYd"/>
+                        <constraint firstAttribute="height" constant="73" id="S0D-Jp-LPW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="DRINKS" backgroundImage="datespotwithoutwhitborder"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AD-pd-uYv">
+                    <rect key="frame" x="174" y="162" width="76" height="73"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="73" id="YMZ-4z-U51"/>
+                        <constraint firstAttribute="width" constant="76" id="hdl-xc-J5i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="DANCE" backgroundImage="datespotwithoutwhitborder"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ak3-2Q-VIR" secondAttribute="trailing" constant="19" id="09A-wZ-9ZA"/>
+                <constraint firstAttribute="trailing" secondItem="7CQ-PG-uUs" secondAttribute="trailing" id="4ZY-Wi-YZZ"/>
+                <constraint firstItem="9AD-pd-uYv" firstAttribute="top" secondItem="ak3-2Q-VIR" secondAttribute="bottom" constant="13" id="AG3-HP-imG"/>
+                <constraint firstItem="ak3-2Q-VIR" firstAttribute="top" secondItem="7CQ-PG-uUs" secondAttribute="bottom" constant="3" id="BJt-Qh-2z1"/>
+                <constraint firstItem="ak3-2Q-VIR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="19" id="DqR-Qn-Wt0"/>
+                <constraint firstItem="gV7-yT-qKC" firstAttribute="top" secondItem="5Rr-F0-pf8" secondAttribute="bottom" constant="20" id="PXd-H5-ZFh"/>
+                <constraint firstItem="gV7-yT-qKC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TCt-6e-RRk"/>
+                <constraint firstItem="5Rr-F0-pf8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="Y5B-81-gtE"/>
+                <constraint firstItem="7CQ-PG-uUs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aUH-7D-gkQ"/>
+                <constraint firstItem="em1-0g-F4I" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eBr-uD-M9W"/>
+                <constraint firstItem="5Rr-F0-pf8" firstAttribute="top" secondItem="ak3-2Q-VIR" secondAttribute="bottom" constant="13" id="gBV-V4-crc"/>
+                <constraint firstItem="em1-0g-F4I" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="21" id="mGH-38-0xt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9AD-pd-uYv" secondAttribute="trailing" constant="60" id="sKV-m1-aLz"/>
+                <constraint firstItem="7CQ-PG-uUs" firstAttribute="top" secondItem="em1-0g-F4I" secondAttribute="bottom" constant="8" id="wub-Vj-kBx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-7" y="253.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Button" width="420" height="74"/>
+        <image name="datespotwithoutwhitborder" width="67" height="67"/>
+        <image name="invite" width="40" height="34"/>
+    </resources>
+</document>

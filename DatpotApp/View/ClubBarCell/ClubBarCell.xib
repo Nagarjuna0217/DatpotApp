@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="KGk-i7-Jjw" customClass="ClubBarCell" customModule="DatpotApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="g3A-ms-ct4">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="189.5"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chd-5L-kdk">
+                        <rect key="frame" x="15" y="11" width="73" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="5T2-bg-4PZ"/>
+                            <constraint firstAttribute="width" constant="73" id="Jar-cU-jNY"/>
+                        </constraints>
+                        <state key="normal" image="type"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="love" translatesAutoresizingMaskIntoConstraints="NO" id="7Wq-XT-p7x">
+                        <rect key="frame" x="129" y="35" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="ei4-MK-4k0"/>
+                            <constraint firstAttribute="width" constant="80" id="ywd-6c-79T"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steve jobs second b.day " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKj-vz-gJc">
+                        <rect key="frame" x="15" y="131" width="308" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="CqH-AB-hn7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fri 27 Feb , 03:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-0T-2rk">
+                        <rect key="frame" x="15" y="159" width="308" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="iSm-Na-32z"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="chd-5L-kdk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="3mT-Kb-aXa"/>
+                    <constraint firstItem="wE4-0T-2rk" firstAttribute="top" secondItem="zKj-vz-gJc" secondAttribute="bottom" constant="3" id="6ZB-vz-vzr"/>
+                    <constraint firstItem="zKj-vz-gJc" firstAttribute="top" secondItem="7Wq-XT-p7x" secondAttribute="bottom" constant="16" id="9G1-xa-YwV"/>
+                    <constraint firstAttribute="trailing" secondItem="g3A-ms-ct4" secondAttribute="trailing" id="AVb-UR-hHX"/>
+                    <constraint firstItem="g3A-ms-ct4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="B7a-aK-csW"/>
+                    <constraint firstItem="7Wq-XT-p7x" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="R9k-1P-J6D"/>
+                    <constraint firstItem="zKj-vz-gJc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="RCq-or-5t1"/>
+                    <constraint firstAttribute="bottom" secondItem="g3A-ms-ct4" secondAttribute="bottom" constant="10" id="TcD-dl-3gr"/>
+                    <constraint firstItem="7Wq-XT-p7x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="cgO-Bo-kIm"/>
+                    <constraint firstItem="g3A-ms-ct4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="evw-wj-zJM"/>
+                    <constraint firstAttribute="trailing" secondItem="zKj-vz-gJc" secondAttribute="trailing" constant="15" id="ewM-5C-pMF"/>
+                    <constraint firstItem="chd-5L-kdk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="hCA-Ez-wAB"/>
+                    <constraint firstAttribute="trailing" secondItem="wE4-0T-2rk" secondAttribute="trailing" constant="15" id="sCX-aa-JpB"/>
+                    <constraint firstItem="wE4-0T-2rk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="vYg-XC-58B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgImageView" destination="g3A-ms-ct4" id="1gh-js-3wM"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="188"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg" width="642" height="1136"/>
+        <image name="love" width="146" height="146"/>
+        <image name="type" width="120" height="52"/>
+    </resources>
+</document>
